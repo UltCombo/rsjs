@@ -1,0 +1,23 @@
+vhidden()
+    position: absolute
+    left: -9999px
+
+font-size-em(size, reference = null)
+    if reference is null
+        reference = 16px
+    font-size: unit(size / reference, 'em')
+
+braces()
+    position: relative
+    &:before, &:after
+        position: absolute
+        font-weight: 700
+        color: softwhite
+    unless arguments[0] is null
+        &:before
+            left: arguments[0]
+            content: '{'
+    unless arguments[1] is null
+        &:after
+            right: arguments[1]
+            content: '}'
