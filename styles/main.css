@@ -543,7 +543,7 @@ section.schedule .slot .talk {
   position: relative;
   z-index: 1;
 }
-section.schedule .slot .speaker {
+section.schedule .slot .bar {
   font-style: italic;
   margin-bottom: 15px;
 }
