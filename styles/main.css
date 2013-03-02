@@ -506,15 +506,11 @@ section.about .emphasis {
   font-style: italic;
   text-align: center;
 }
-section.social-box {
-  padding-top: 5em;
+section.subscribe .social-box {
+  padding-top: 2em;
   text-align: center;
 }
-section.social-box .title {
-  position: absolute;
-  left: -9999px;
-}
-section.social-box iframe {
+section.subscribe .social-box iframe {
   margin: 0 auto;
 }
 section.schedule table {
@@ -781,7 +777,7 @@ section.contact .curator {
   section.about .emphasis br {
     display: none;
   }
-  section.about .social-box {
+  .social-box {
     display: none;
   }
   section.location .map,
