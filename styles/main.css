@@ -564,8 +564,8 @@ section.schedule .slot .presentation {
 }
 section.schedule .other {
   opacity: 0.6;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   filter: alpha(opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }
 section.location .title {
   margin-bottom: 45px;
